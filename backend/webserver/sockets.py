@@ -59,7 +59,7 @@ def annotating(data):
     }, broadcast=True, include_self=False)
 
     if active:
-        logger.info(f'{current_user.username} has started annotating image {image_id}')
+        logger.info(f'{current_user.username} (TEST) has started annotating image {image_id}')
         # Remove user from pervious room
         previous = session.get('annotating')
         if previous is not None:
