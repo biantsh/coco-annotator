@@ -19,6 +19,7 @@ logger = logging.getLogger('gunicorn.error')
 
 
 socketio = SocketIO()
+print('TESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTESTTEST')
 
 
 def authenticated_only(f):
